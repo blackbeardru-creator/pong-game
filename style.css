@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.game-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 0 0 10px rgba(102, 126, 234, 0.8);
+    letter-spacing: 3px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.score {
+    background: rgba(102, 126, 234, 0.3);
+    padding: 15px 25px;
+    border-radius: 10px;
+    min-width: 120px;
+}
+
+.score h2 {
+    color: #667eea;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.score p {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.vs {
+    color: #667eea;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#pongCanvas {
+    background: linear-gradient(to right, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%);
+    border: 3px solid #667eea;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+    cursor: none;
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+}
+
+.instructions {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.instructions p {
+    margin: 5px 0;
+}
+
+.instructions strong {
+    color: #667eea;
+}
